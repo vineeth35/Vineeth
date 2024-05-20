@@ -1,0 +1,44 @@
+To determine if Chef is prone to errors based on his current brain speed and the threshold limit, we need to compare two values, 
+𝑋
+X and 
+𝑌
+Y. If 
+𝑌
+Y (the current brain speed) is greater than 
+𝑋
+X (the threshold limit), then Chef is prone to errors, otherwise, he is not.
+
+Solution Explanation
+Input: Read two integers, 
+𝑋
+X and 
+𝑌
+Y.
+Comparison: Compare 
+𝑌
+Y with 
+𝑋
+X.
+Output:
+Print "YES" if 
+𝑌
+Y is greater than 
+𝑋
+X.
+Print "NO" if 
+𝑌
+Y is less than or equal to 
+𝑋
+X.
+Implementation
+Here's the Python code to solve this problem:
+
+python
+# Read input values
+X, Y = map(int, input().strip().split())
+
+# Determine if Chef is prone to errors
+if Y > X:
+    print("YES")
+else:
+    print("NO")
